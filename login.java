@@ -70,7 +70,7 @@ public class SwingLogin extends JFrame{
 					return;
 				}
 				
-				if(id.equals("oswosw0812") && pw.equals("oswosw11_0812")) {
+				if(id.equals("사용자ID") && pw.equals("사용자PW")) {
 					JOptionPane.showMessageDialog(null, "로그인 성공, 사용시간 카운팅 시작!", "로그인 확인!", JOptionPane.DEFAULT_OPTION);
 					System.exit(0);
 				}
@@ -83,7 +83,7 @@ public class SwingLogin extends JFrame{
 		//아이디 비밀번호 찾기 버튼을 눌렀을때
 		idpwSearchBtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "ID:oswosw0812, PW:oswosw11_0812", "아이디/비밀번호 찾기", JOptionPane.DEFAULT_OPTION);
+				JOptionPane.showMessageDialog(null, "ID:_______________, PW:___________", "아이디/비밀번호 찾기", JOptionPane.DEFAULT_OPTION);
 			}
 		});
 		
